@@ -45,7 +45,12 @@ MCPC is an enterprise-grade orchestrator that defines the Gold Standard for MCP 
 ---
 
 ## 📊 GitHub Impact
-*(Keep your existing stats blocks here)*
+![Activity Graph](https://github-readme-stats.vercel.app/api/wakatime/stats?username=dperry713) 
+
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=dperry713&layout=compact&theme=radical)
+
+[![Build Status](https://github.com/dperry713/mcpc/actions/workflows/release.yml/badge.svg)](https://github.com/dperry713/mcpc/actions)
 
 ---
 
