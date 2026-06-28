@@ -1,10 +1,6 @@
 <div align="center">
-  <h1>Hi there, I'm Dustin Perry 👋</h1>
-  
-  <p>
-    <strong>Recent Cybersecurity & Full-Stack Development Graduate</strong><br>
-    Currently studying Ethical Hacking and Network Defense at University of Phoenix
-  </p>
+  <h1>Dustin Perry 👋</h1>
+  <p><strong>Software Developer & Security Engineer | Building the Gold Standard for Agentic Infrastructure</strong></p>
 
   <a href="https://www.linkedin.com/in/dustin-perry">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
@@ -16,89 +12,48 @@
 
 ---
 
-## 🚀 About Me
+## 🛡️ Professional Focus
+I build **hardened, compliant, and observable orchestration engines** that bridge the gap between AI agent logic and cloud-native infrastructure. My work focuses on deterministic execution, zero-trust security, and immutable deployment lifecycles.
 
-Passionate about **cybersecurity**, **secure software development**, and building robust systems that bridge development and defense. 
-
-I enjoy creating tools that combine **automation**, **policy-as-code**, and **distributed execution** — with a strong focus on compliance, auditability, and cross-platform reliability.
-
-- 🔭 Currently working on **UCSER** — a high-performance distributed workflow execution engine
-- 🌱 Learning advanced ethical hacking, red team techniques, and secure systems architecture
-- 💡 Interested in AI agents, cloud-native security, and policy enforcement tools
+- **Current Mission**: Developing **MCPC** — a deterministic compiler that transforms declarative specifications into production-ready, container-hardened, and auditable distributed systems.
+- **Philosophy**: Security and compliance must be *compile-time guarantees*, not runtime afterthoughts.
 
 ---
 
-## 🛠️ Featured Projects
+## 🚀 Flagship Platform: [MCPC](https://github.com/dperry713/mcpc)
+**Rust** • **Tauri** • **React** • **Kubernetes** • **Zero-Trust**
 
-### **[UCSER — Unified Cross-System Execution Runtime](https://github.com/dperry713/ucser-oss)**
-**Rust** • **Python** • **gRPC** • **OPA/Rego**
+MCPC is an enterprise-grade orchestrator that defines the Gold Standard for MCP (Model Context Protocol) component composition.
 
-A high-performance, distributed workflow execution engine that:
-- Compiles workflows into validated DAGs
-- Enforces security & compliance policies (HIPAA/SOC2 style)
-- Executes across Windows/Linux via sandboxed adapters
-- Provides cryptographically verifiable audit trails
+* **Deterministic Build Pipeline**: Content-hashed DAG execution ensures repeatable builds.
+* **Zero-Trust by Design**: Enforces OAuth 2.1/PKCE, mTLS termination, and recursive metadata sanitization.
+* **Production Governance**: Lifecycle stages (Dev/Test/Prod) with mandatory human-in-the-loop transition gates.
+* **Hardened Output**: Auto-generates Seccomp profiles, gVisor runtime constraints, and NetworkPolicies.
 
-**Key Technologies**: Rust (kernel), Python adapters, petgraph, Axum, Tokio, OPA/Rego
-
-→ [View Repository →](https://github.com/dperry713/ucser-oss)
+→ [Explore the Compiler →](https://github.com/dperry713/mcpc)
 
 ---
 
-### Other Notable Projects
+## 🛠️ Infrastructure & Security Expertise
 
-- **llm_backend** — LLM-powered backend services
-- **ai-orchestrator-native** — Native AI workflow orchestration
-- **redteam_toolkit** — Red team automation utilities
-- **elite_scanner** — Advanced scanning & reconnaissance tools
-- **autoITsec** — Windows security automation (PowerShell)
-- **cognitive_shell** — Intelligent shell environment
-
----
-
-## 🧠 Skills & Technologies
-
-### Languages
-![Rust](https://img.shields.io/badge/Rust-000000?style=flat&logo=rust&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
-![PowerShell](https://img.shields.io/badge/PowerShell-5391FE?style=flat&logo=powershell&logoColor=white)
-
-### Core Competencies
-- **Cybersecurity**: Ethical Hacking, Red Teaming, Compliance (HIPAA/SOC2), Policy-as-Code
-- **Backend & Systems**: Rust, Python, gRPC, Distributed Systems, DAG Execution
-- **DevOps & Automation**: GitHub Actions, Linux/Windows scripting, Infrastructure as Code
-- **Security Tools**: OPA/Rego, Audit Logging, Sandboxing
-- **AI/ML**: LLM integration, Agent orchestration
+### Core Technical Stack
+* **Languages**: Rust (Systems/Kernel), Python (Automation/ML), PowerShell (.NET Core)
+* **Infrastructure**: Kubernetes, Docker (Distroless), Helm, OpenTelemetry (OTLP)
+* **Security & Compliance**: OAuth 2.1/PKCE, OPA/Rego, Seccomp/gVisor, SOC2/HIPAA-aligned design
+* **Tooling**: GitHub Actions (CI/CD), Tauri (GUI), React Flow
 
 ---
 
-## 📊 GitHub Stats
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=dperry713&show_icons=true&theme=radical&hide_border=true" alt="GitHub Stats" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=dperry713&theme=radical&hide_border=true" alt="Streak Stats" />
-</div>
+## 📊 GitHub Impact
+*(Keep your existing stats blocks here)*
 
 ---
 
 ## 📫 Get In Touch
-
-- **LinkedIn**: [linkedin.com/in/dustin-perry](https://www.linkedin.com/in/dustin-perry)
-- **Email**: dperry713@gmail.com
-- **Open to**: Collaborations, internships, or security-focused open-source contributions
-
----
-
-## 🎯 Currently Learning
-- Advanced penetration testing & exploit development
-- Cloud security (AWS/Azure)
-- Secure AI system design
+* **LinkedIn**: [linkedin.com/in/dustin-perry](https://www.linkedin.com/in/dustin-perry)
+* **Email**: dperry713@gmail.com
+* **Open to**: Security-focused partnerships and high-impact infrastructure engineering opportunities.
 
 ---
 
-*“Building secure, observable, and auditable systems one DAG at a time.”*
-
----
-
-**⭐ Star my repositories if you find them useful!** Contributions and feedback are always welcome.
+*“Hardened systems for the agentic era. Deterministic. Compliant. Secure.”*
