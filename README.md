@@ -57,8 +57,16 @@ AIR is a production-oriented agent runtime and shell for Windows. It sits betwee
 
 ## GitHub Activity
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=dperry713&layout=compact&theme=radical)
+Currently focused on **[AIR — AI Runtime](https://github.com/dperry713/AI_runtime)** — a Windows-native agent runtime with event-sourced journaling, deny-by-default policy, and OS-level sandboxing.
 
+**Recent work includes:**
+- Windows security hardening (WFP egress control, AppContainer isolation, Credential Manager)
+- Daemon + named-pipe IPC + interactive shell
+- 1500+ tests with coverage gates and security/chaos suites
+- Strict layered architecture enforced by dependency-cruiser
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=dperry713&layout=compact&theme=radical)
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=dperry713&show_icons=true&theme=radical&hide_title=true)
 ---
 
 ## Contact
