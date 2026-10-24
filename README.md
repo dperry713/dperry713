@@ -1,6 +1,7 @@
 <div align="center">
-  <h1>Dustin Perry 👋</h1>
-  <p><strong>Software Developer & Security Engineer | Building the Gold Standard for Agentic Infrastructure</strong></p>
+  <h1>Dustin Perry</h1>
+  <p><strong>Software Developer & Security Engineer</strong><br>
+  Building trustworthy agent infrastructure for the Windows platform</p>
 
   <a href="https://www.linkedin.com/in/dustin-perry">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
@@ -12,53 +13,60 @@
 
 ---
 
-## 🛡️ Professional Focus
-I build **hardened, compliant, and observable orchestration engines** that bridge the gap between AI agent logic and cloud-native infrastructure. My work focuses on deterministic execution, zero-trust security, and immutable deployment lifecycles.
+## Focus
 
-- **Current Mission**: Developing **MCPC** — a deterministic compiler that transforms declarative specifications into production-ready, container-hardened, and auditable distributed systems.
-- **Philosophy**: Security and compliance must be *compile-time guarantees*, not runtime afterthoughts.
+I design and build **hardened, auditable agent runtimes** — systems that treat AI agents as supervised processes rather than free-roaming scripts.
 
----
+My work prioritizes:
+- Deny-by-default policy and capability control
+- OS-level isolation
+- Full event-sourced audit trails
+- Crash recovery and deterministic replay
 
-## 🚀 Flagship Platform: [MCPC](https://github.com/dperry713/mcpc)
-**Rust** • **Tauri** • **React** • **Kubernetes** • **Zero-Trust**
-
-MCPC is an enterprise-grade orchestrator that defines the Gold Standard for MCP (Model Context Protocol) component composition.
-
-* **Deterministic Build Pipeline**: Content-hashed DAG execution ensures repeatable builds.
-* **Zero-Trust by Design**: Enforces OAuth 2.1/PKCE, mTLS termination, and recursive metadata sanitization.
-* **Production Governance**: Lifecycle stages (Dev/Test/Prod) with mandatory human-in-the-loop transition gates.
-* **Hardened Output**: Auto-generates Seccomp profiles, gVisor runtime constraints, and NetworkPolicies.
-
-→ [Explore the Compiler →](https://github.com/dperry713/mcpc)
+Security and observability are treated as core runtime concerns, not afterthoughts.
 
 ---
 
-## 🛠️ Infrastructure & Security Expertise
+## Flagship Project: [AIR — AI Runtime](https://github.com/dperry713/AI_runtime)
 
-### Core Technical Stack
-* **Languages**: Rust (Systems/Kernel), Python (Automation/ML), PowerShell (.NET Core)
-* **Infrastructure**: Kubernetes, Docker (Distroless), Helm, OpenTelemetry (OTLP)
-* **Security & Compliance**: OAuth 2.1/PKCE, OPA/Rego, Seccomp/gVisor, SOC2/HIPAA-aligned design
-* **Tooling**: GitHub Actions (CI/CD), Tauri (GUI), React Flow
+**TypeScript** • **Windows** • **Node.js** • **Security-first**
+
+AIR is a production-oriented agent runtime and shell for Windows. It sits between LLM APIs and real system access, providing the isolation, policy, and auditability needed to run agents with confidence.
+
+**Key capabilities:**
+- Event-sourced journal with crash recovery and deterministic replay
+- Deny-by-default policy engine with taint tracking and human approvals
+- OS-level sandboxing (Job Objects + AppContainer)
+- Network egress control via Windows Filtering Platform
+- Provider-agnostic (Anthropic, OpenAI-compatible, Ollama)
+- Structured observability and hash-chained audit log
+
+→ [View the repository](https://github.com/dperry713/AI_runtime)
 
 ---
 
-## 📊 GitHub Impact
-![Activity Graph](https://github-readme-stats.vercel.app/api/wakatime/stats?username=dperry713) 
+## Technical Stack
 
+- **Languages**: TypeScript (strict), PowerShell, Rust (native helpers)
+- **Runtime & Platform**: Node.js 22, Windows 10/11
+- **Security**: Job Objects, AppContainer, WFP, Credential Manager, path canonicalization
+- **Architecture**: Event sourcing, layered modules, dependency-cruiser enforced boundaries
+- **Testing**: 1500+ tests, coverage gates, chaos and security suites
+
+---
+
+## GitHub Activity
 
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=dperry713&layout=compact&theme=radical)
 
-[![Build Status](https://github.com/dperry713/mcpc/actions/workflows/release.yml/badge.svg)](https://github.com/dperry713/mcpc/actions)
+---
+
+## Contact
+
+- **LinkedIn**: [linkedin.com/in/dustin-perry](https://www.linkedin.com/in/dustin-perry)
+- **Email**: dperry713@gmail.com
+- **Open to**: Security-focused engineering roles and agent infrastructure work
 
 ---
 
-## 📫 Get In Touch
-* **LinkedIn**: [linkedin.com/in/dustin-perry](https://www.linkedin.com/in/dustin-perry)
-* **Email**: dperry713@gmail.com
-* **Open to**: Security-focused partnerships and high-impact infrastructure engineering opportunities.
-
----
-
-*“Hardened systems for the agentic era. Deterministic. Compliant. Secure.”*
+*“Agents should be managed like processes — isolated, observable, and recoverable.”*
