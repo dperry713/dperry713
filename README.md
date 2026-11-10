@@ -1,7 +1,7 @@
 <div align="center">
   <h1>Dustin Perry</h1>
-  <p><strong>Software Developer & Security Engineer</strong><br>
-  Building trustworthy agent infrastructure for the Windows platform</p>
+  <p><strong>Software Engineer · Cybersecurity</strong><br>
+  Building secure software, backend platforms, and governed AI agent infrastructure</p>
 
   <a href="https://www.linkedin.com/in/dustin-perry">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
@@ -13,67 +13,95 @@
 
 ---
 
-## Focus
+## Professional Summary
 
-I design and build **hardened, auditable agent runtimes** — systems that treat AI agents as supervised processes rather than free-roaming scripts.
+Software engineering and cybersecurity practitioner with project management experience and a technical foundation in backend and full-stack development, application security, and systems architecture. I build software with an emphasis on secure defaults, explicit control boundaries, testability, observability, and maintainability.
 
-My work prioritizes:
-- Deny-by-default policy and capability control
-- OS-level isolation
-- Full event-sourced audit trails
-- Crash recovery and deterministic replay
+My current engineering interests include AI agent infrastructure, runtime security, cognitive memory systems, API platforms, and reliable distributed services.
 
-Security and observability are treated as core runtime concerns, not afterthoughts.
+## Core Competencies
+
+- **Software Engineering:** Python, C#/.NET, Rust, TypeScript, JavaScript, Node.js, React, SQL, REST APIs, GraphQL
+- **Architecture:** Clean Architecture, modular design, domain modeling, dependency injection, event-driven systems
+- **Security:** Application security, access control, risk analysis, incident response, network security, secure execution boundaries
+- **Infrastructure:** Windows, Linux, PowerShell, Docker, GitHub Actions, PostgreSQL, Redis, CI/CD
+- **Engineering Quality:** Automated testing, integration testing, security testing, structured logging, observability
+
+## Selected Projects
+
+### [AIR — AI Runtime](https://github.com/dperry713/AI_runtime)
+
+**TypeScript · Node.js · Windows · Runtime Security**
+
+A Windows-oriented agent runtime designed to place deterministic controls around probabilistic AI agents.
+- Deny-by-default policy enforcement and taint-aware data handling
+- OS-level isolation using Windows Job Objects and AppContainer
+- Event-sourced journal supporting recovery, replay, and auditability
+- Network egress controls and human approval boundaries
+- Provider-agnostic model integration and structured observability
+
+### [Cognitive Memory Database](https://github.com/dperry713/CognitiveMemoryDatabase)
+
+**C# · .NET · Semantic Memory · MCP**
+
+A cognitive memory system exploring semantic page construction, tokenizer-aware context allocation, memory routing, and progressive recall for agent applications.
+- Concept-oriented semantic page construction
+- Token-aware allocation against model context budgets
+- Routing across memory types and retrieval strategies
+- Progressive retrieval to avoid loading unnecessary history
+
+### [The Advent Piazza](https://github.com/dperry713/xmas)
+
+**JavaScript · Three.js · Interactive Web**
+
+An interactive 3D web experience using a custom Three.js scene for spatial presentation and user engagement.
+
+### XRPL Platform Engineering
+
+**C# · .NET · APIs · Blockchain Middleware**
+
+Enterprise-oriented XRP Ledger middleware and API development, including typed domain abstractions, tenant-aware service design, trustline workflows, auditability, and integration testing. [Explore my repositories](https://github.com/dperry713).
 
 ---
 
-## Flagship Project: [AIR — AI Runtime](https://github.com/dperry713/AI_runtime)
+## Professional Experience
 
-**TypeScript** • **Windows** • **Node.js** • **Security-first**
+**Project Manager — Keep It Wet**  
+May 2020 – Present
 
-AIR is a production-oriented agent runtime and shell for Windows. It sits between LLM APIs and real system access, providing the isolation, policy, and auditability needed to run agents with confidence.
+**Machine Operator — Richardson Molding LLC**  
+July 2019 – May 2020
 
-**Key capabilities:**
-- Event-sourced journal with crash recovery and deterministic replay
-- Deny-by-default policy engine with taint tracking and human approvals
-- OS-level sandboxing (Job Objects + AppContainer)
-- Network egress control via Windows Filtering Platform
-- Provider-agnostic (Anthropic, OpenAI-compatible, Ollama)
-- Structured observability and hash-chained audit log
-
-→ [View the repository](https://github.com/dperry713/AI_runtime)
+**Service Technician — E-Practical Solutions**  
+February 2017 – April 2019
 
 ---
 
-## Technical Stack
+## Education & Training
 
-- **Languages**: TypeScript (strict), PowerShell, Rust (native helpers)
-- **Runtime & Platform**: Node.js 22, Windows 10/11
-- **Security**: Job Objects, AppContainer, WFP, Credential Manager, path canonicalization
-- **Architecture**: Event sourcing, layered modules, dependency-cruiser enforced boundaries
-- **Testing**: 1500+ tests, coverage gates, chaos and security suites
+- **University of Phoenix** — B.S. Cybersecurity, in progress (expected 2029)
+- **Coding Temple** — Software Engineering Certificate (2025)
+- **University of Phoenix** — Advanced Cybersecurity Certificate (July 2024)
 
 ---
 
 ## GitHub Activity
 
-Currently focused on **[AIR — AI Runtime](https://github.com/dperry713/AI_runtime)** — a Windows-native agent runtime with event-sourced journaling, deny-by-default policy, and OS-level sandboxing.
-
-**Recent work includes:**
-- Windows security hardening (WFP egress control, AppContainer isolation, Credential Manager)
-- Daemon + named-pipe IPC + interactive shell
-- 1500+ tests with coverage gates and security/chaos suites
-- Strict layered architecture enforced by dependency-cruiser
+Currently focused on secure agent runtime engineering, cognitive memory infrastructure, and backend platform development.
 
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=dperry713&layout=compact&theme=radical)
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=dperry713&show_icons=true&theme=radical&hide_title=true)
+
 ---
 
 ## Contact
 
-- **LinkedIn**: [linkedin.com/in/dustin-perry](https://www.linkedin.com/in/dustin-perry)
-- **Email**: dperry713@gmail.com
-- **Open to**: Security-focused engineering roles and agent infrastructure work
+- **Email:** dperry713@gmail.com
+- **Phone:** 463-302-8429
+- **LinkedIn:** [linkedin.com/in/dustin-perry](https://www.linkedin.com/in/dustin-perry)
+- **GitHub:** [github.com/dperry713](https://github.com/dperry713)
+
+Open to software engineering, backend development, cybersecurity, and AI infrastructure opportunities.
 
 ---
 
