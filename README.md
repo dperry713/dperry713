@@ -29,7 +29,7 @@ My current engineering interests include AI agent infrastructure, runtime securi
 
 ## Selected Projects
 
-### [AIR — AI Runtime](https://github.com/dperry713/AI_runtime)
+### [AIR — AI Runtime](https://github.com/dperry713/AIR)
 
 **TypeScript · Node.js · Windows · Runtime Security**
 
@@ -40,7 +40,7 @@ A Windows-oriented agent runtime designed to place deterministic controls around
 - Network egress controls and human approval boundaries
 - Provider-agnostic model integration and structured observability
 
-### [Cognitive Memory Database](https://github.com/dperry713/CognitiveMemoryDatabase)
+### Cognitive Memory Database — [view GitHub repositories](https://github.com/dperry713?tab=repositories)
 
 **C# · .NET · Semantic Memory · MCP**
 
